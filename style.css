@@ -1,0 +1,27 @@
+a:nth-child(3) {
+  color: brown;
+}
+
+input:invalid {
+ background-color: rgb(206, 22, 47);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li {
+  border-right: 1px solid;
+  list-style: none;
+}
+
+li:last-child {
+  border: none;
+}
+
+a {
+  padding: 10px;
+  text-decoration: none;
+}
